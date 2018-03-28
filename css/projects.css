@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+body {
+  background: url(../img/pic.jpg) no-repeat;
+  background-size: 100% 140%;
+  color: white;
+  padding: 100px;
+}
+p {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 35px;
+  color: lightgray;
+}
+.btn {
+  border-radius: 9px;
+  font-family: 'Acme', sans-serif;
+  color: red;
+  font-size: 135%;
+  padding: 10px 20px;
+  border: solid blue 3px;
+  text-decoration: none;
+  }
+.btn:hover {
+  color: white;
+  border: solid white;
+}
+ul {
+  list-style: none;
+}
